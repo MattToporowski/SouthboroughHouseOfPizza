@@ -1,0 +1,257 @@
+/* Restaurant Styles */
+/* in CSS */
+
+
+body{
+	font-family: 'Berkshire Swash', cursive;
+	margin: 0;
+	padding: 0;
+
+}
+
+#pageTop {
+
+	width: 100%;
+	height: 200px;
+	background-color: #f4a742;
+	text-align: center;
+	font-size: 5em;
+	color: white;
+	padding-top: 5%;
+}
+
+#menuBar {
+	width: 100%;
+	height: 75px;
+	background-color: #f46b42;
+	margin: 0;
+	padding-left: 1.1%;
+	padding-top: 2.5%;
+	
+}
+
+.sideBar {
+	float: left;
+	width: 20%;
+	height: 1175px;
+	background-color: #f4a742;
+	text-align: center;
+	color: white;
+}
+
+#mainSideBar {
+	float: left;
+	width: 20%;
+	height: 600px;
+	background-color: #f4a742;
+	text-align: center;
+	color: white;
+}
+
+.mainDisplay {
+
+	float: left;
+	width: 80%;
+	height: 600px;
+	background-color: #f4a742;
+}
+
+#BreakfastMealsDisplay {
+	width: 80%;
+	height: 600px;
+	background-color: #f4a742;
+	padding-left: 20%;
+}
+
+#LunchMealsDisplay {
+	width: 80%;
+	height: 1125px;
+	background-color: #f4a742;
+	padding-left: 20%;
+	background-image: url("../images/lunchbackground.jpg"); 
+}
+
+#DinnerMealsDisplay {
+	width: 80%;
+	height: 1130px;
+	background-color: #f4a742;
+	padding-left: 20%;
+	background-image: url("../images/DinnerBackground.jpg"); 
+}
+
+#lunchMenuPic {
+	background-image: url("../images/lunchmenu.jpg");
+	width: 600px;
+	height: 900px;
+}
+
+.menuItem {
+	float: left;
+	width: 24%;
+	color: white;
+	font-size: 2em;
+	border: 3px solid #ffe500;
+	text-align: center;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 20px;
+	}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+h1.Description {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+	color: white;
+	text-align:justify;
+	padding: 0 1em 0 1em
+}
+
+h2 {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+.sb {
+	font size: 1em;
+	color: white;
+	text-align: left;
+	padding-left: 3%;
+}
+
+#sidebarPicture {
+	padding-top: 26.5%;
+	height: 247px;
+}
+body{
+	background-color: #f4a742;
+}
+
+
+.centeredList {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#breakfastList {
+	padding-top: 25%;
+	padding-left: 20%;
+	background: #f4a742 url("../images/menu2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 750px;
+	font-size: 2em;
+	color: black;
+}
+
+#lunchList {
+    margin: 0;
+    padding: 0;
+	padding-top: 25%;
+	padding-left: 20%;
+	background: #f4a742 url("../images/lunchmenu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 750px;
+	width: 500px;
+	font-size: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#dinnerList {
+	padding-top: 30%;
+	padding-left: 15%;
+	background: #f4a742 url("../images/DinnerMenu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 650px;
+	font-size: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#BreakfastPicture {
+	float: right;
+	padding-right: 21%;
+	padding-top: 28%;
+	width: 37%;
+	height: 250px;
+}
+
+#BreakfastPicture2 {
+	float: right;
+	padding-right: 20%;
+	padding-top: 15%;
+	width: 350px;
+	height: 250px;
+}
+
+#LunchPicture {
+	float: right;
+	padding-top: 35%;
+	padding-right: 22%;
+	width: 275px;
+	height: 200px;
+}
+
+#LunchPicture2 {
+	position: absolute;
+	padding-left: 15%;
+	width: 200px;
+	height: 150px;
+
+}
+
+#DinnerPicture {
+	float: right;
+	padding-right: 21%;
+	padding-top: 33%;
+	width: 37%;
+	height: 250px;
+}
+
+#DinnerPicture2 {
+	float: right;
+	padding-right: 20%;
+	width: 325px;
+	height: 210px;
+}
+
+
+h1.BreakfastTitle {
+	text-align: center;
+	font-size: 4em;
+	color: white;
+	background-color: #f4a742;
+}
